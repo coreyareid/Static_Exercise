@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Static_Exercise;
+
+var temperature = 36;
+// writes called method to the console
+Console.WriteLine($"The current temperature is: " +
+    $"{TempConverter.FahrenheitToCelsius(temperature)}");
 
